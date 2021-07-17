@@ -1,0 +1,41 @@
+.ScoreUpdatePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FormContainer>form{
+    background-color: blue;
+    padding: 30px;
+ }
+ .FormContainer{
+     width: 300px;
+     height: 300px;
+     box-sizing: border-box;
+ }
+ .FormContainer>form{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .FormContainer>form>div{
+     width: 100%;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+ .FormContainer>form>div>input{
+    width: 90%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+ }
+ .FormContainer>form>input{
+     border: 0;
+     outline: 0;
+     padding: 10px;
+     background-color: yellow;
+     cursor: pointer;
+ }

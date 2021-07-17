@@ -1,0 +1,22 @@
+.MainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.ytimg.com/vi/WPX1K6_hm30/maxresdefault.jpg');
+    position: relative;
+  }
+ .TeamA,.TeamB{
+    width: 300px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
