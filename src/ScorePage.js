@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './ScorePage.module.css'
-import {Link} from "react-router-dom"
 import Axios from 'axios'
 
 class ScorePage extends React.Component{
@@ -32,14 +31,6 @@ class ScorePage extends React.Component{
         })
         return(
           <div className={classes.MainContainer}>
-              <div>
-                <Link to="/">
-                   <button>ScorePage</button>
-                </Link>
-                <Link to="/score-update-page">
-                   <button>ScoreUpdatePage</button>
-                </Link>
-              </div>
               <div className={classes.TeamA}>
                  <span>ENG</span>
                  <span>160/7</span>
